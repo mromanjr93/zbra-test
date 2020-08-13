@@ -4,6 +4,6 @@
 
 ## zbra-test
 
-All the answers are located inside src folder, each question contains or an ConsoleProject or an MD file with answer content.
+All the answers are located inside src folder, each question contains or a ConsoleProject or an MD file with answer content.
 
 The solutions were written in C #
