@@ -18,29 +18,24 @@ Polymorphism is a concept that allows you to rewrite these implementations with 
         public void StartEngine()
         {
             _engineOn = true;
-		}
+        }
 
         public void  TurnEngineOff() 
         {
             _engineOn - false;
-		}
+        }
 
         public virtual void SpeedUp()
         {
             speed = speed + 1;
-		}
+        }
     }
 
     public class Car : Vehicle
-    {
-        private readonly bool _engineOn = false;
-
-        protected int speed = 0;
-
-        
+    {   
         public override void SpeedUp()
         {
             speed = speed + 10;
-		}
+        }
     }
 ```
